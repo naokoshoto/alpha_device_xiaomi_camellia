@@ -7,7 +7,7 @@
 	},
 	{
 		"remote":	"github",
-		"repository":	"dm700-devs/vendor_xiaomi_camellia",
+		"repository":	"naokoshoto/alpha_vendor_xiaomi_camellia",
 		"target_path":	"vendor/xiaomi/camellia",
 		"branch":	"thirteen"
 	},
