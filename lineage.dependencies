@@ -1,0 +1,32 @@
+[
+	{
+		"remote":	"github",
+		"repository":	"dm700-devs/device_xiaomi_camellia-kernel",
+		"target_path":	"device/xiaomi/camellia-kernel",
+		"branch":	"thirteen"
+	},
+	{
+		"remote":	"github",
+		"repository":	"dm700-devs/vendor_xiaomi_camellia",
+		"target_path":	"vendor/xiaomi/camellia",
+		"branch":	"thirteen"
+	},
+	{
+		"remote":	"github",
+		"repository":	"LineageOS/android_device_mediatek_sepolicy_vndr",
+		"target_path":	"device/mediatek/sepolicy_vndr",
+		"branch":	"lineage-20"
+	},
+	{
+		"remote":	"github",
+		"repository":	"ArrowOS-Devices/android_hardware_xiaomi",
+		"target_path":	"hardware/xiaomi",
+		"branch":	"arrow-13.1"
+	},
+	{
+		"remote":	"github",
+		"repository":	"dm700-devs/hardware_mediatek"
+		"target_path":	"hardware/mediatek",
+		"branch":	"thirteen"
+	}
+]
