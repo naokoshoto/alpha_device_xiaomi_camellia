@@ -28,5 +28,11 @@
 		"repository":	"dm700-devs/hardware_mediatek"
 		"target_path":	"hardware/mediatek",
 		"branch":	"thirteen"
+	},
+	{
+		"remote":	"github",
+		"repository":	"nashc-dev/android_hardware_mediatek_wlan"
+		"target_path":	"hardware/mediatek/wlan",
+		"branch":	"lineage-20"
 	}
 ]
