@@ -75,6 +75,10 @@ vendor.camera.mdp.dre.enable=1
 vendor.camera.mdp.hfg.enable=1
 vendor.mtk.camera.app.fd.video=1
 
+# Chipset
+ro.soc.manufacturer=Mediatek
+ro.soc.model=DM700
+
 # DRM
 drm.service.enabled=true
 ro.vendor.mtk_config_max_dram_size=0x800000000
@@ -84,7 +88,9 @@ ro.vendor.mtk_widevine_drm_l1_support=1
 dalvik.vm.dex2oat64.enabled=true
 
 # Display
+debug.hwui.skia_atrace_enabled=false
 debug.mediatek.disp_decompress=1
+debug.renderengine.backend=skiaglthreaded
 debug.sf.disable_backpressure=1
 debug.sf.early.app.duration=16600000
 debug.sf.early.sf.duration=16600000
