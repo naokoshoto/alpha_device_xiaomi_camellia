@@ -1319,6 +1319,15 @@ vendor/lib/librcs_volte_core.so
 vendor/lib/vendor.mediatek.hardware.rcs@2.0.so
 vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/vendor.mediatek.hardware.clientapi@1.0.so
+<<<<<<< HEAD
+=======
+
+# Radio (IMS) - from TECNO-CK9n UP1A.230519.001
+vendor/bin/hw/vtservice_hidl|047b26f80b338b7d0869840d243eefebe82d56f5
+vendor/etc/init/init.vtservice_hidl.rc|f2e992214ed5bb99c2c2a135cf1f0996dba8a8a0
+vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so|bb9ff554802e7bffb72cf24604109dafcf0019fc
+vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|5e228669d2c575e38fc02a13404f31bc22494b87
+>>>>>>> 000aa29 (camellia: Update VT blobs from TECNO-CK9n)
 
 # Radio (MTK-IMS)
 system/framework/mediatek-common.jar
@@ -1332,7 +1341,11 @@ system/framework/mediatek-telephony-common.jar
 system/framework/mediatek-wfo-legacy.jar
 system/priv-app/ImsService/ImsService.apk|ff2fe5a2afae7b94b4f6c02145ff5a1d2ef99335
 
+<<<<<<< HEAD
 # IMS - from TECNO-CK9n UP1A.230519.001
+=======
+# Radio (SYSTEM-IMS) - from TECNO-CK9n UP1A.230519.001
+>>>>>>> 000aa29 (camellia: Update VT blobs from TECNO-CK9n)
 system_ext/bin/vtservice|59adc81ee1ad1f3fb4942cd6e8e7100325002eb2
 system_ext/etc/init/init.vtservice.rc|50a2249906edc06059b443513db47a2ddc0490dc
 system_ext/lib64/libcomutils.so|6d9cd979f33ef01cb26861a38a59e76e1c2a3acb
@@ -1350,10 +1363,13 @@ system_ext/lib64/libvcodec_capenc.so|5527525dfcd25169bc380ac53d8181ffa1429c6f
 system_ext/lib64/libvt_avsync.so|632cb05532ef2e022072d91bff3c1ae47c888b7e
 system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so|fc3f645734d4e37fa50b77233d63c7b2eb166014
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|aee568e770a3835af2df2262c9dc8bb2911da324
+<<<<<<< HEAD
 vendor/bin/hw/vtservice_hidl|047b26f80b338b7d0869840d243eefebe82d56f5
 vendor/etc/init/init.vtservice_hidl.rc|f2e992214ed5bb99c2c2a135cf1f0996dba8a8a0
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so|bb9ff554802e7bffb72cf24604109dafcf0019fc
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|5e228669d2c575e38fc02a13404f31bc22494b87
+=======
+>>>>>>> 000aa29 (camellia: Update VT blobs from TECNO-CK9n)
 
 # Secure Element
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
