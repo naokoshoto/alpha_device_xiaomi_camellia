@@ -8,6 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_camellia.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_camellia-user \
-    aosp_camellia-userdebug \
-    aosp_camellia-eng
+    lineage_camellia-user \
+    lineage_camellia-userdebug \
+    lineage_camellia-eng
