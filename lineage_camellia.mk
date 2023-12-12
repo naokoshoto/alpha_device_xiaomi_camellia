@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/camellia/device.mk)
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_AOSP_RECOVERY := true
@@ -24,7 +24,7 @@ TARGET_EXCLUDES_AUDIOFX := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # GAPPS
-# WITH_GAPPS := true
+# WITH_GMS := true
 TARGET_INCLUDE_GOOGLE_TELEPHONY := true
 TARGET_INCLUDE_PIXEL_FRAMEWORK := true
 TARGET_INCLUDE_GOOGLE_CAMERA := false
@@ -38,7 +38,7 @@ TARGET_INCLUDE_MATLOG := false
 TARGET_DEFAULT_ADB_ENABLED := true
 
 # Maintainer
-ALPHA_BUILD_TYPE := Official
+# ALPHA_BUILD_TYPE := Official
 ALPHA_MAINTAINER := NaokoShoto
 
 PRODUCT_NAME := lineage_camellia
