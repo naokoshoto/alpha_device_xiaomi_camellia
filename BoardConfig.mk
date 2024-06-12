@@ -142,6 +142,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # SELinux
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2023-09-01
@@ -179,3 +180,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
 include vendor/xiaomi/camellia/BoardConfigVendor.mk
+
+
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
